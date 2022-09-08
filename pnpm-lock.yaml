@@ -6,21 +6,25 @@ specifiers:
   '@vueuse/integrations': ^9.2.0
   axios: ^0.27.2
   element-plus: ^2.2.16
+  nprogress: ^0.2.0
   universal-cookie: ^4.0.4
   vite: ^3.1.0
   vite-plugin-windicss: ^1.8.7
   vue: ^3.2.37
   vue-router: '4'
+  vuex: ^4.0.2
   windicss: ^3.5.6
 
 dependencies:
   '@element-plus/icons-vue': 2.0.9_vue@3.2.38
-  '@vueuse/integrations': 9.2.0_paaz3rkbmpyswvtg2hogtr6oyi
+  '@vueuse/integrations': 9.2.0_bnsqyrqmivxjd6xo2zu4nddce4
   axios: 0.27.2
   element-plus: 2.2.16_vue@3.2.38
+  nprogress: 0.2.0
   universal-cookie: 4.0.4
   vue: 3.2.38
   vue-router: 4.1.5_vue@3.2.38
+  vuex: 4.0.2_vue@3.2.38
 
 devDependencies:
   '@vitejs/plugin-vue': 3.1.0_vite@3.1.0+vue@3.2.38
@@ -232,7 +236,7 @@ packages:
       - vue
     dev: false
 
-  /@vueuse/integrations/9.2.0_paaz3rkbmpyswvtg2hogtr6oyi:
+  /@vueuse/integrations/9.2.0_bnsqyrqmivxjd6xo2zu4nddce4:
     resolution: {integrity: sha512-0NerkCPUUWnbEb0ZZaJyrO8YKPPClR9+aLLF8yBbG/XRsoEo7pcpVq8d+uMhfHrXABoUpKD+9FZ+Tz/aRb7yFg==}
     peerDependencies:
       async-validator: '*'
@@ -270,6 +274,7 @@ packages:
       '@vueuse/core': 9.2.0_vue@3.2.38
       '@vueuse/shared': 9.2.0_vue@3.2.38
       axios: 0.27.2
+      nprogress: 0.2.0
       universal-cookie: 4.0.4
       vue-demi: 0.13.11_vue@3.2.38
     transitivePeerDependencies:
@@ -790,6 +795,10 @@ packages:
     resolution: {integrity: sha512-Wj7+EJQ8mSuXr2iWfnujrimU35R2W4FAErEyTmJoJ7ucwTn2hOUSsRehMb5RSYkxXGTM7Y9QpvPmp++w5ftoJw==}
     dev: false
 
+  /nprogress/0.2.0:
+    resolution: {integrity: sha512-I19aIingLgR1fmhftnbWWO3dXc0hSxqHQHQb3H8m+K3TnEn/iSeTZZOyvKXWqQESMwuUVnatlCnZdLBZZt2VSA==}
+    dev: false
+
   /path-parse/1.0.7:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
     dev: true
@@ -949,6 +958,15 @@ packages:
       '@vue/runtime-dom': 3.2.38
       '@vue/server-renderer': 3.2.38_vue@3.2.38
       '@vue/shared': 3.2.38
+
+  /vuex/4.0.2_vue@3.2.38:
+    resolution: {integrity: sha512-M6r8uxELjZIK8kTKDGgZTYX/ahzblnzC4isU1tpmEuOIIKmV+TRdc+H4s8ds2NuZ7wpUTdGRzJRtoj+lI+pc0Q==}
+    peerDependencies:
+      vue: ^3.0.2
+    dependencies:
+      '@vue/devtools-api': 6.2.1
+      vue: 3.2.38
+    dev: false
 
   /windicss/3.5.6:
     resolution: {integrity: sha512-P1mzPEjgFMZLX0ZqfFht4fhV/FX8DTG7ERG1fBLiWvd34pTLVReS5CVsewKn9PApSgXnVfPWwvq+qUsRwpnwFA==}
