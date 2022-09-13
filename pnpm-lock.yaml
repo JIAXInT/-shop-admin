@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@element-plus/icons-vue': ^2.0.9
   '@vitejs/plugin-vue': ^3.1.0
+  '@vueuse/core': ^9.2.0
   '@vueuse/integrations': ^9.2.0
   axios: ^0.27.2
   element-plus: ^2.2.16
@@ -17,6 +18,7 @@ specifiers:
 
 dependencies:
   '@element-plus/icons-vue': 2.0.9_vue@3.2.38
+  '@vueuse/core': 9.2.0_vue@3.2.38
   '@vueuse/integrations': 9.2.0_bnsqyrqmivxjd6xo2zu4nddce4
   axios: 0.27.2
   element-plus: 2.2.16_vue@3.2.38
