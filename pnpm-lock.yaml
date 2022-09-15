@@ -6,7 +6,9 @@ specifiers:
   '@vueuse/core': ^9.2.0
   '@vueuse/integrations': ^9.2.0
   axios: ^0.27.2
+  echarts: ^5.3.3
   element-plus: ^2.2.16
+  gsap: ^3.11.1
   nprogress: ^0.2.0
   universal-cookie: ^4.0.4
   vite: ^3.1.0
@@ -21,7 +23,9 @@ dependencies:
   '@vueuse/core': 9.2.0_vue@3.2.38
   '@vueuse/integrations': 9.2.0_bnsqyrqmivxjd6xo2zu4nddce4
   axios: 0.27.2
+  echarts: 5.3.3
   element-plus: 2.2.16_vue@3.2.38
+  gsap: 3.11.1
   nprogress: 0.2.0
   universal-cookie: 4.0.4
   vue: 3.2.38
@@ -381,6 +385,13 @@ packages:
     engines: {node: '>=0.4.0'}
     dev: false
 
+  /echarts/5.3.3:
+    resolution: {integrity: sha512-BRw2serInRwO5SIwRviZ6Xgm5Lb7irgz+sLiFMmy/HOaf4SQ+7oYqxKzRHAKp4xHQ05AuHw1xvoQWJjDQq/FGw==}
+    dependencies:
+      tslib: 2.3.0
+      zrender: 5.3.2
+    dev: false
+
   /element-plus/2.2.16_vue@3.2.38:
     resolution: {integrity: sha512-rvaTMFIujec9YDC5lyaiQv2XVUCHuhVDq2k+9vQxP78N8Wd07iEOGa9pvEVOO2uYc75l4rSl2RE/IWPH/6Mdzw==}
     peerDependencies:
@@ -684,6 +695,10 @@ packages:
       is-glob: 4.0.3
     dev: true
 
+  /gsap/3.11.1:
+    resolution: {integrity: sha512-UKuJ0UPhntFHMwT6URFQ4cTQv88xc7Kd9Dhxt7qX9IPhC+d+/a5wKW5E5Vn33hZ53nBI1JfApcEbzKgXkcuPZw==}
+    dev: false
+
   /has/1.0.3:
     resolution: {integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==}
     engines: {node: '>= 0.4.0'}
@@ -880,6 +895,10 @@ packages:
       is-number: 7.0.0
     dev: true
 
+  /tslib/2.3.0:
+    resolution: {integrity: sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==}
+    dev: false
+
   /universal-cookie/4.0.4:
     resolution: {integrity: sha512-lbRVHoOMtItjWbM7TwDLdl8wug7izB0tq3/YVKhT/ahB4VDvWMyvnADfnJI8y6fSvsjh51Ix7lTGC6Tn4rMPhw==}
     dependencies:
@@ -975,3 +994,9 @@ packages:
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
+
+  /zrender/5.3.2:
+    resolution: {integrity: sha512-8IiYdfwHj2rx0UeIGZGGU4WEVSDEdeVCaIg/fomejg1Xu6OifAL1GVzIPHg2D+MyUkbNgPWji90t0a8IDk+39w==}
+    dependencies:
+      tslib: 2.3.0
+    dev: false
