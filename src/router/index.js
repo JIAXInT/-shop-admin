@@ -16,6 +16,8 @@ import NoticeList from '@/pages/notice/list.vue'
 import SettingBase from '@/pages/setting/base.vue'
 import CouponList from '@/pages/coupon/list.vue'
 import ManagerList from '@/pages/manager/list.vue'
+import AccessList from '@/pages/access/list.vue'
+import RoleList from '@/pages/role/list.vue'
 
 
 //默认路由 所有用户共享
@@ -111,6 +113,20 @@ const asyncRoutes = [{
     component: ManagerList,
     meta: {
         title: "管理员管理"
+    }
+}, {
+    path: "/access/list",
+    name: "/access/list",
+    component: AccessList,
+    meta: {
+        title: "权限管理"
+    }
+}, {
+    path: "/role/list",
+    name: "/role/list",
+    component: RoleList,
+    meta: {
+        title: "角色管理"
     }
 }]
 
