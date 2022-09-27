@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@element-plus/icons-vue': ^2.0.9
+  '@tinymce/tinymce-vue': ^5.0.0
   '@vitejs/plugin-vue': ^3.1.0
   '@vueuse/core': ^9.2.0
   '@vueuse/integrations': ^9.2.0
@@ -10,6 +11,7 @@ specifiers:
   element-plus: ^2.2.16
   gsap: ^3.11.1
   nprogress: ^0.2.0
+  tinymce: ^6.0.3
   universal-cookie: ^4.0.4
   vite: ^3.1.0
   vite-plugin-windicss: ^1.8.7
@@ -20,6 +22,7 @@ specifiers:
 
 dependencies:
   '@element-plus/icons-vue': 2.0.9_vue@3.2.38
+  '@tinymce/tinymce-vue': 5.0.0_vue@3.2.38
   '@vueuse/core': 9.2.0_vue@3.2.38
   '@vueuse/integrations': 9.2.0_bnsqyrqmivxjd6xo2zu4nddce4
   axios: 0.27.2
@@ -27,6 +30,7 @@ dependencies:
   element-plus: 2.2.16_vue@3.2.38
   gsap: 3.11.1
   nprogress: 0.2.0
+  tinymce: 6.2.0
   universal-cookie: 4.0.4
   vue: 3.2.38
   vue-router: 4.1.5_vue@3.2.38
@@ -122,6 +126,15 @@ packages:
 
   /@sxzz/popperjs-es/2.11.7:
     resolution: {integrity: sha512-Ccy0NlLkzr0Ex2FKvh2X+OyERHXJ88XJ1MXtsI9y9fGexlaXaVTPzBCRBwIxFkORuOb+uBqeu+RqnpgYTEZRUQ==}
+    dev: false
+
+  /@tinymce/tinymce-vue/5.0.0_vue@3.2.38:
+    resolution: {integrity: sha512-1HRCNa2eGdztOKShYAiHIry50LTU6YJG//qSP9AJElrXhb3BIBN0Bef6E56nZObVgwCgSmI4cnX35VU9D49aow==}
+    peerDependencies:
+      vue: ^3.0.0
+    dependencies:
+      tinymce: 6.2.0
+      vue: 3.2.38
     dev: false
 
   /@types/cookie/0.3.3:
@@ -883,6 +896,10 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
     dev: true
+
+  /tinymce/6.2.0:
+    resolution: {integrity: sha512-zLjbFrg0hbtJ6PxmZUjQY6zyIOM/mLrWGTvhBec7XwYwoW1E0xXMQzy2tgMTh3OvJpsclgqf2ZMjmwcv4Cludw==}
+    dev: false
 
   /to-fast-properties/2.0.0:
     resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
